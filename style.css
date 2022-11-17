@@ -1,0 +1,125 @@
+body {
+    font-family: Arial;
+    background-color:rgb(230, 243, 255);
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+span {
+    color: grey;   
+}
+
+.container {
+    box-shadow: 0 0 20px grey;
+    margin: 0 auto;
+    background-color: white;
+    width: 960px;
+}
+
+section,
+header {
+    padding: 20px 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+header ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.address-icon {
+    width: 16px;
+    height: 16px;
+    background-color:rgb(0, 72, 228);
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.hobbies div {
+    margin-left: 20px;
+}
+
+.hobbies p {
+    color: rgb(105, 103, 103);
+}
+
+p {
+    line-height: 1.5;
+}
+
+.cv-link {
+    border: 2px solid rgb(4, 0, 255);
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 26px;
+    transition: background-color 0.5s;
+    box-shadow: 0 0 20px grey;
+}
+
+.cv-link:hover {
+    color: white;
+    background-color: rgb(0, 38, 255);
+}
+
+.cv-link:focus {
+    outline: none;
+    color: white;
+    background-color: rgb(0, 38, 255);
+}
+
+.cv-link:active {
+    text-decoration: underline;
+}
+
+header div span {
+    padding-left: 5px;
+}
